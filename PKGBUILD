@@ -1,8 +1,8 @@
 # This PKGBUILD could be part of the VDR4Arch project [https://github.com/vdr4arch]
 
 pkgname=vdr-nordlichtsepg
-pkgver=0.10
-_gitver=0ef021ec3ecfdb42f7f4fb7c263d92a9db80b71a
+pkgver=0.11
+_gitver=746226785d61e3e69cbbcd1d3ee605fdf351c5ca
 _vdrapi=2.4.0
 pkgrel=1
 pkgdesc="The plugin provides an EPG (Electronic Program Guide) similar to the built-in one, but with extra features."
