@@ -1,0 +1,22 @@
+pkgbase = vdr-nordlichtsepg
+	pkgdesc = The plugin provides an EPG (Electronic Program Guide) similar to the built-in one, but with extra features.
+	pkgver = 0.11
+	pkgrel = 3
+	url = https://github.com/lmaresch/vdr-plugin-nordlichtsepg
+	arch = x86_64
+	arch = i686
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	license = AGPL3
+	makedepends = git
+	depends = vdr-api=2.4.6
+	optdepends = ttf-vdrsymbols
+	backup = etc/vdr/conf.avail/50-nordlichtsepg.conf
+	source = vdr-plugin-nordlichtsepg::git+https://github.com/lmaresch/vdr-plugin-nordlichtsepg#commit=746226785d61e3e69cbbcd1d3ee605fdf351c5ca
+	source = 50-nordlichtsepg.conf
+	sha512sums = SKIP
+	sha512sums = d8de710cbdd811b1931d946ba906b73bdddc4bc09594ddada86733784bfca81ed14e2d3480fb51a378949f7b3005d1490cfc8a7e2fec0c7569c75ea7ff9d8ca6
+
+pkgname = vdr-nordlichtsepg
+

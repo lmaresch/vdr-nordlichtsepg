@@ -11,6 +11,7 @@ arch=('x86_64' 'i686' 'arm' 'armv6h' 'armv7h')
 license=('AGPL3')
 depends=("vdr-api=${_vdrapi}")
 optdepends=('ttf-vdrsymbols')
+makedepends=('git')
 _plugname=${pkgname//vdr-/}
 source=("vdr-plugin-${_plugname}::git+https://github.com/lmaresch/vdr-plugin-nordlichtsepg#commit=$_gitver"
         "50-$_plugname.conf")
